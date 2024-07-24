@@ -1,0 +1,53 @@
+main, header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f8f9fa; /* Light background for better visual appeal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-container h3 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: #343a40; /* Darker color for headings */
+}
+
+.form-container form {
+    width: 100%; /* Make the form take the full width of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-container .form-group {
+    width: 100%; /* Make form groups take the full width */
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-container .form-control, .form-container .btn {
+    width: 100%; /* Make inputs and buttons take the full width */
+}
+
+.form-container .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Match the border with the background color */
+    transition: background-color 0.2s ease; /* Smooth transition effect */
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
